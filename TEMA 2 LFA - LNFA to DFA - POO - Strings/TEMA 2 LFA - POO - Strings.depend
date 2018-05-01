@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1525216667 source:c:\users\george\desktop\tema 2 lfa - poo - strings\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<vector>
+	<queue>
+	<algorithm>
+
