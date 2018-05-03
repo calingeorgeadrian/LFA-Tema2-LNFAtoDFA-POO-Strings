@@ -7,7 +7,7 @@
 
 using namespace std;
 
-ifstream fin("date4.in");
+ifstream fin("date2.in");
 ofstream g("dfa.out");
 
 struct Nod{
@@ -352,7 +352,7 @@ public:
                         Nod *q=v[currentState];
                         if(q!=NULL)
                         {
-                            while(q!=NULL && strcmp(q->letter,alphabet[j])<0)
+                            while(q!=NULL && (strcmp(q->letter,alphabet[j])<0 || strcmp(q->letter,"~")==0))
                                 q=q->next;
 
                             // if(q) cout<<"A: "<<q->state<<" "<<q->new_state<<" "<<q->letter<<'\n';;
