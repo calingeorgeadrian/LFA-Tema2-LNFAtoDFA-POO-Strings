@@ -1,3 +1,18 @@
+/*Aceasta tema a presupus simularea transformarii unui lambda-NFA in DFA
+  Programul primeste la intrare datele unui lambda-NFA iar apoi il transforma in DFA
+  La iesire sunt scrise datele DFA-ului
+  Starile automatelor pot fi caractere, numere sau siruri de caractere
+  
+  Documentatie
+  DFA - https://en.wikipedia.org/wiki/Deterministic_finite_automaton
+  NFA - https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton
+  LNFA - https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton#NFA_with_%CE%B5-moves
+  LNFA to DFA - https://www.dennis-grinch.co.uk/tutorial/enfa-to-dfa
+  STL Vector - http://www.cplusplus.com/reference/vector/vector/
+  STL Queue - http://www.cplusplus.com/reference/queue/queue/
+ */
+
+
 #include <iostream>
 #include <fstream>
 #include <string.h>
